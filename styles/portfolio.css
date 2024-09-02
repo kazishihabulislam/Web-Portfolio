@@ -1,0 +1,33 @@
+body{ <uniquifier>: Use a unique and descriptive class name
+      <weight>: Use a value from 300 to 800
+      <width>: Use a value from 75 to 100
+    
+    open-sans-<uniquifier> 
+      font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" <width>;
+    }
+
+/* nav related styles is here */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: #000;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;}
