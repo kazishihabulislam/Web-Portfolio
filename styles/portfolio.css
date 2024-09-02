@@ -133,3 +133,12 @@ main{
     text-align: center;
     font-weight: 700;
 }
+/* What I do section style is here */
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+#section-two-description{
+    padding: 30px 150px;
+}
